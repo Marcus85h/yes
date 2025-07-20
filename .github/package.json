@@ -1,0 +1,27 @@
+{
+  "name": "bex-token-contract",
+  "version": "1.0.0",
+  "description": "BEX ERC20代币智能合约",
+  "main": "BEXToken.sol",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "keywords": [
+    "solidity",
+    "erc20",
+    "token",
+    "blockchain",
+    "ethereum"
+  ],
+  "author": "BEX Token Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+} 

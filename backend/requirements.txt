@@ -1,0 +1,83 @@
+# Django 核心
+Django==4.2.21
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.1
+
+# 数据库和缓存
+psycopg2-binary==2.9.9
+redis==5.0.1
+django-redis==5.4.0
+
+# 异步和实时通信
+channels==4.0.0
+channels-redis==4.1.0
+celery==5.3.4
+
+# 文件处理和媒体
+Pillow==10.3.0
+django-storages==1.14.2
+boto3==1.34.0
+
+# 网络和HTTP
+requests==2.32.2
+django-cors-headers==4.3.1
+
+# 任务队列和后台任务
+django-celery-beat==2.5.0
+
+# 安全和认证
+django-axes==6.1.0
+django-otp==1.3.0
+django-two-factor-auth==1.15.5
+cryptography==41.0.8
+bcrypt==4.1.2
+
+# 用户认证和社交登录
+django-allauth==0.57.0
+django-rest-auth==0.9.5
+django-rest-knox==4.2.0
+django-rest-passwordreset==1.2.1
+django-rest-registration==0.7.4
+
+# 支付集成
+stripe==7.8.0
+
+# 通知服务
+twilio==8.10.0
+sendgrid==6.10.0
+firebase-admin==6.4.0
+
+# 监控和日志
+sentry-sdk==1.38.0
+django-health-check==3.17.0
+django-prometheus==2.3.1
+prometheus-client==0.19.0
+
+# 限流和性能
+django-ratelimit==4.1.0
+
+# 配置管理
+python-decouple==3.8
+python-dotenv==1.0.0
+dj-database-url==2.1.0
+
+# 部署和服务器
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# API文档
+drf-yasg==1.21.7
+
+# 工具库
+django-filter==23.5
+django-extensions==3.2.3
+django-debug-toolbar==4.2.0
+
+# 代码质量检查工具
+black==23.12.1
+flake8==7.0.0
+isort==5.13.2
+bandit==1.7.5
+mypy==1.8.0
+safety==2.3.5 
+django-stubs==4.2.7 

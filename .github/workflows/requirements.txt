@@ -1,0 +1,52 @@
+# 微信自动聊天机器人依赖包
+
+# 微信客户端库 (主要方案)
+wxpy>=0.3.9.8
+
+# 微信客户端库 (备用方案)
+itchat-uos>=1.5.0.dev0
+
+# OpenAI API客户端
+openai>=1.0.0
+
+# 日志和工具库
+colorlog>=6.7.0
+
+# 数据处理
+requests>=2.28.0
+
+# 图像处理 (用于二维码显示)
+Pillow>=9.0.0
+
+# 加密库 (用于API密钥安全)
+cryptography>=3.4.8
+
+# 配置管理
+pyyaml>=6.0
+
+# 异步支持
+asyncio-mqtt>=0.11.0
+
+# 时间处理
+python-dateutil>=2.8.2
+
+# 正则表达式增强
+regex>=2022.1.18
+
+# 进度条 (用于长时间操作)
+tqdm>=4.64.0
+
+# 环境变量管理
+python-dotenv>=0.19.0
+
+# 数据验证
+pydantic>=1.9.0
+
+# 网络请求重试
+tenacity>=8.0.1
+
+# 内存缓存
+cachetools>=5.0.0
+
+# 文件监控 (用于配置热重载)
+watchdog>=2.1.0 

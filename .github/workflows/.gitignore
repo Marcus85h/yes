@@ -1,0 +1,75 @@
+# 微信自动聊天机器人 Git 忽略文件
+
+# 配置文件 (包含敏感信息)
+config.json
+persona.json
+
+# 微信登录缓存
+*.pkl
+wxpy_cache.pkl
+itchat_cache.pkl
+
+# 日志文件
+*.log
+wechat_bot.log
+logs/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+temp/
+
+# 环境变量文件
+.env
+.env.local
+
+# 备份文件
+*.bak
+*.backup
+
+# 测试覆盖率
+.coverage
+htmlcov/
+
+# 构建文件
+build/
+dist/
+*.egg-info/
+
+# 数据库文件
+*.db
+*.sqlite
+
+# 图片和媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mp3
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar 
